@@ -12,20 +12,20 @@
             <a class="logo" href="index.html"><img src="img/nerds-logo.svg" width="160" height="65" alt="логотип Nerds"></a>
             <ul class="nav-list">
                 <li class="nav-item">
-                    <a href="#">Студия</a>
+                    <a href="studio.html">Студия</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#">Клиенты</a>
+                    <a href="clients.html">Клиенты</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#">Магазин</a>
+                    <a href="shop.html">Магазин</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#">Контакты</a>
+                    <a href="contacts.html">Контакты</a>
                 </li>
             </ul>
             <div class="nav-basket">
-                <a href="#">Корзина</a>
+                <a href="basket.html">Корзина</a>
             </div>
             <div>
                 <h2>Магазин готовых шаблонов</h2>
@@ -35,6 +35,37 @@
     <main class="inner-main">
         <section class="filters">
             <h2 class="visually-hidden">Стоимость товара</h2>
+            <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+            <fieldset>
+                <legend>Стоимость:</legend>
+                </fieldset>
+                <fieldset>
+                <legend>сетка:</legend>
+                <ul>
+                <li class="filter-option">
+                    <input class="visually-hidden filter-input filter-input-radio" type="radio" name="mesh" value="adaptive" id="filter-adaptive" checked><label for="filter-adaptive">Адаптивная</label></li>
+                     <li class="filter-option">
+                    <input class="visually-hidden filter-input filter-input-radio" type="radio" name="mesh" value="fixed" id="filter-fixed"><label for="filter-fixed">Фиксированная</label></li>
+                     <li class="filter-option">
+                         <input class="visually-hidden filter-input filter-input-radio" type="radio" name="mesh" value="rubber" id="filter-rubber"><label for="filter-rubber">Резиновая</label></li>
+                </ul>
+                </fieldset>
+                <fieldset>
+                <legend>особенности:</legend>
+                <ul> <li class="filter-option">
+                    <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" id="filter-slider" name="slider" checked><label for="filter-slider">Слайдер</label></li>
+                <li class="filter-option">
+                    <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="advantage" id="advantage-fixed"><label for="advantage-fixed">Блок преимуществ</label></li>
+                <li class="filter-option">
+                    <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="News" id="news-fixed" checked><label for="news-fixed">Новости</label></li>
+                <li class="filter-option">
+                    <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Gallery" id="gallery-fixed"><label for="gallery-fixed">Галерея</label></li>
+                <li class="filter-option">
+                    <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Basket" id="basket-fixed"><label for="basket-fixed">Корзина</label></li>
+               </ul>
+            </fieldset>
+                <button type="submit">Показать</button>
+            </form>
         </section>
         <section class="catalog">
             <div class="select">
