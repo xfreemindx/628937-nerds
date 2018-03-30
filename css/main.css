@@ -20,6 +20,29 @@ input[type="radio"].visually-hidden {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.btn {
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.btn-red {
+    background-color: #fb565a;
+    color: #ffffff;
+}
+.btn-yellow {
+    background-color: #efc84a;
+    color: #ffffff;
+}
+    .btn-green {
+    background-color: #00ca74;
+    color: #ffffff;
+}
+        .btn-grey {
+    background-color: #eeeeee;
+    color: #000000;
+}
+}
 .page-header-title {
     font-size: 55px;
     line-height: 55px;
@@ -31,12 +54,13 @@ header   {
 .page-nav {
     font-size: 16px;
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 500;
+    text-decoration: none;
 }
 .slider-item h3 {
     font-size: 55px;
     line-height: 55px;
-    font-weight: 400;
+    font-weight: 500;
 }
 .slider-item p {
     font-size: 15px;
@@ -44,17 +68,11 @@ header   {
     font-weight: 400;
     color: #283136;
 }
-.button {
-    color: #ffffff;
-    font-size: 16px;
-    line-height: 15px;
-    font-weight: 400;
-    
-}
+
 .features-list h2 {
     font-size: 24px;
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 700;
 }
 .features-list p {
     color: #283136;
@@ -65,7 +83,7 @@ header   {
 .about-us h2 {
     font-size: 45px;
     line-height: 45px;
-    font-weight: 400;
+    font-weight: 500;
     
 }
 .about-us p {
@@ -88,13 +106,13 @@ header   {
 .advantages caption {
     font-size: 16px;
     line-height: 24px;
-    font-weight: 400;
+    font-weight: 700;
     }
 tr th {
     color: #283136;
     font-size: 45px;
     line-height: 10.06px;
-    font-weight: 400;
+    font-weight: 700;
 }
 tr td {
     color: #283136;
@@ -105,7 +123,7 @@ tr td {
 .filters legend {
     font-size: 18px;
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 700;
    }
 .filters filter-option {
     color: #283136;
@@ -132,7 +150,7 @@ button {
 .catalog-item-title {
     font-size: 18px;
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 700;
 }
 .catalog-item p {
     font-size: 16px;
@@ -143,28 +161,28 @@ button {
 .pagination-item {
     font-size: 16px;
     line-height: 18px;
-    font-weight: 400;
+    font-weight: 500;
 }
-page-footer. contact-title  {
+.contact-title  {
     font-size: 18px;
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 700;
 }
-.page-footer .contact-text {
+.contact-text {
     font-size: 16px;
     line-height: 18px;
     font-weight: 400;
-    background-color: #666666;
+    color: #666666;
 }
 .social-text h2 {
     font-size: 36px;
     line-height: 36px;
-    font-weight: 400;
+    font-weight: 700;
 }
 .social-text p {
     font-size: 16px;
     line-height: 22px;
     font-weight: 400;
-    background-color: #444444;
+    color: #444444;
 }
 
